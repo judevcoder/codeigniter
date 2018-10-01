@@ -28,7 +28,7 @@
                                 <li class="treeview <?php echo set_Topmenu('front_office'); ?>">
                                     <a href="#">
                                         <i class="fa fa-ioxhost"></i> <span><?php echo $this->lang->line('front_office'); ?></span> 
-										<span class="badge badge-success  pull-right">New</span>
+										<span class="badge badge-success  pull-right">7</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('admission_enquiry', 'can_view')) { ?>
@@ -96,7 +96,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Student Information'); ?>">
                                     <a href="#">
                                         <i class="fa fa-user-plus"></i> <span><?php echo $this->lang->line('student_information'); ?></span> 
-										<span class="badge badge-danger  pull-right">3</span>
+										<span class="badge badge-danger  pull-right">9</span>
                                     </a>
                                     <ul class="treeview-menu">
 
@@ -184,7 +184,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Fees Collection'); ?>">
                                     <a href="#">
                                         <i class="fa fa-money"></i> <span> <?php echo $this->lang->line('fees_collection'); ?></span> 
-										<span class="badge badge-info pull-right">5</span>
+										<span class="badge badge-info pull-right">10</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('collect_fees', 'can_view')) { ?>
@@ -254,7 +254,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Income'); ?>">
                                     <a href="#">
                                         <i class="fa fa-usd"></i> <span><?php echo $this->lang->line('income'); ?></span> 
-										<span class="badge badge-warning pull-right">5</span>
+										<span class="badge badge-warning pull-right">3</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('income', 'can_view')) { ?>
@@ -283,7 +283,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Expenses'); ?>">
                                     <a href="#">
                                         <i class="fa fa-credit-card"></i> <span><?php echo $this->lang->line('expenses'); ?></span> 
-										<span class="badge badge-success pull-right">8</span>
+										<span class="badge badge-success pull-right">3</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('expense', 'can_view')) { ?>
@@ -315,7 +315,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Attendance'); ?>">
                                     <a href="#">
                                         <i class="fa fa-calendar-check-o"></i> <span><?php echo $this->lang->line('attendance'); ?></span> 
-										 <span class="badge badge-danger pull-right">8</span>
+										 <span class="badge badge-danger pull-right">3</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('student_attendance', 'can_view')) { ?>
@@ -342,7 +342,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Examinations'); ?>">
                                     <a href="#">
                                         <i class="fa fa-map-o"></i> <span><?php echo $this->lang->line('examinations'); ?></span> 
-										<span class="badge badge-info pull-right">8</span>
+										<span class="badge badge-info pull-right">4</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('exam', 'can_view')) { ?>
@@ -379,7 +379,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Academics'); ?>">
                                     <a href="#">
                                         <i class="fa fa-mortar-board"></i> <span><?php echo $this->lang->line('academics'); ?></span> 
-										<span class="badge badge-success pull-right">8</span>
+										<span class="badge badge-success pull-right">7</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('class_timetable', 'can_view')) { ?>
@@ -434,7 +434,7 @@
                                 <li class="treeview <?php echo set_Topmenu('HR'); ?>">
                                     <a href="#">
                                         <i class="fa fa-sitemap"></i> <span><?php echo $this->lang->line('human_resource'); ?></span> 
-										<span class="badge badge-warning pull-right">8</span>
+										<span class="badge badge-warning pull-right">11</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('staff', 'can_view')) { ?>
@@ -512,7 +512,7 @@
                                 <li class = "treeview <?php echo set_Topmenu('Communicate'); ?>">
                                     <a href = "#">
                                         <i class = "fa fa-bullhorn"></i> <span><?php echo $this->lang->line('communicate');
-                                ?></span> <span class="badge badge-info pull-right">8</span>
+                                ?></span> <span class="badge badge-info pull-right">4</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php
@@ -546,7 +546,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Download Center'); ?>">
                                     <a href="#">
                                         <i class="fa fa-download"></i> <span><?php echo $this->lang->line('download_center'); ?></span> 
-										<span class="badge badge-warning pull-right">8</span>
+										<span class="badge badge-warning pull-right">5</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('upload_content', 'can_view')) { ?>
@@ -569,7 +569,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Homework'); ?>">
                                     <a href="#">
                                         <i class="fa fa-flask"></i> <span><?php echo $this->lang->line('homework'); ?></span> 
-										<span class="badge badge-danger pull-right">8</span>
+										<span class="badge badge-danger pull-right">2</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('homework', 'can_view')) { ?>
@@ -593,7 +593,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Library'); ?>">
                                     <a href="#">
                                         <i class="fa fa-book"></i> <span><?php echo $this->lang->line('library'); ?></span>
-										<span class="badge badge-warning pull-right">8</span>
+										<span class="badge badge-warning pull-right">5</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('books', 'can_add')) { ?>
@@ -629,7 +629,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Inventory'); ?>">
                                     <a href="#">
                                         <i class="fa fa-object-group"></i> <span><?php echo $this->lang->line('inventory'); ?></span> 
-										<span class="badge badge-success pull-right">8</span>
+										<span class="badge badge-success pull-right">6</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('issue_item', 'can_view')) { ?>
@@ -674,7 +674,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Transport'); ?>">
                                     <a href="#">
                                         <i class="fa fa-bus"></i> <span><?php echo $this->lang->line('transport'); ?></span> 
-										<span class="badge badge-danger pull-right">8</span>
+										<span class="badge badge-danger pull-right">4</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php
@@ -715,7 +715,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Hostel'); ?>">
                                     <a href="#">
                                         <i class="fa fa-building-o"></i> <span><?php echo $this->lang->line('hostel'); ?></span> 
-										<span class="badge badge-warning pull-right">8</span>
+										<span class="badge badge-warning pull-right">4</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php
@@ -759,7 +759,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Certificate'); ?>">
                                     <a href="#">
                                         <i class="fa fa-newspaper-o"></i> <span><?php echo $this->lang->line('certificate'); ?></span> 
-										<span class="badge badge-warning pull-right">8</span>
+										<span class="badge badge-warning pull-right">4</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php
@@ -802,7 +802,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Front CMS'); ?>">
                                     <a href="#">
                                         <i class="fa fa-empire"></i> <span><?php echo $this->lang->line('front_cms'); ?></span> 
-										<span class="badge badge-success pull-right">8</span>
+										<span class="badge badge-success pull-right">7</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php if ($this->rbac->hasPrivilege('event', 'can_view')) { ?>
@@ -851,7 +851,7 @@
                                 <li class="treeview <?php echo set_Topmenu('Reports'); ?>">
                                     <a href="#">
                                         <i class="fa fa-line-chart"></i> <span><?php echo $this->lang->line('reports'); ?></span>
-										<span class="badge badge-warning pull-right">8</span>
+										<span class="badge badge-warning pull-right">15</span>
                                     </a>
                                     <ul class="treeview-menu">
 <?php if ($this->rbac->hasPrivilege('student_report', 'can_view')) {
@@ -963,7 +963,7 @@
                                 <li class="treeview <?php echo set_Topmenu('System Settings'); ?>">
                                     <a href="#">
                                         <i class="fa fa-gears"></i> <span><?php echo $this->lang->line('system_settings'); ?></span> 
-										<span class="badge badge-info pull-right">10</span>
+										<span class="badge badge-info pull-right">12</span>
                                     </a>
                                     <ul class="treeview-menu">
                                         <?php
