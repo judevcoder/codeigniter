@@ -1,0 +1,228 @@
+.box_dashboard{
+	display: block;
+    font-size: 15px;
+    margin-top: 38px;
+    white-space: nowrap;
+    margin-left: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+			.skin-blue .main-header .logo {
+    background-color: #ffffff;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+}
+.skin-blue .main-header .navbar {
+    
+    background: linear-gradient(88deg, #13b4ca, #18cabe);
+}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #fff;
+    box-shadow: 0 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+}
+
+.sessionul {
+    color: #fff;
+    box-shadow: inherit;
+}
+
+.fixedmenu {
+    background: #ffffff;
+}
+
+.skin-blue .sidebar a {
+    color: #8d9498;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a {
+    border-left-color: inherit;
+    background: #f6f6f6;
+    color: #8d9498;
+}
+ 
+.skin-blue .sidebar-menu>li>a {
+    border-left: 0px solid transparent !important;
+}
+
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    margin: 10px 1px;
+    background: #fff;
+	padding-left: 30px;
+}
+
+.skin-blue .treeview-menu>li>a {
+    color:#999999;
+}
+.skin-blue .treeview-menu>li.active>a, .skin-blue .treeview-menu>li>a:hover {
+    color: #000;
+}
+
+.sidebar-menu .treeview-menu>li>a>.fa, .sidebar-menu .treeview-menu>li>a>.glyphicon, .sidebar-menu .treeview-menu>li>a>.ion {
+    width: 20px;
+    display: none;
+}
+
+.fixed .main-header {
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: none;
+}
+
+
+ ul.treeview-menu li a:before{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+	top:20px;
+    left:0px;
+ }
+ 
+ ul.treeview-menu li:nth-child(1) a:before{
+        background-color:red;
+ }
+ 
+  ul.treeview-menu li:nth-child(2) a:before{
+        background-color:blue;
+ }
+ 
+   ul.treeview-menu li:nth-child(3) a:before{
+        background-color:green;
+ }
+ 
+    ul.treeview-menu li:nth-child(4) a:before{
+        background-color:orange;
+ }
+ 
+    ul.treeview-menu li:nth-child(5) a:before{
+        background-color:skyblue;
+ }
+ 
+  ul.treeview-menu li:nth-child(6) a:before{
+        background-color:red;
+ }
+ 
+  ul.treeview-menu li:nth-child(7) a:before{
+        background-color:blue;
+ }
+ 
+   ul.treeview-menu li:nth-child(8) a:before{
+        background-color:green;
+ }
+ 
+    ul.treeview-menu li:nth-child(9) a:before{
+        background-color:orange;
+ }
+ 
+    ul.treeview-menu li:nth-child(10) a:before{
+        background-color:skyblue;
+ }
+  
+  .skin-blue .main-header .logo:hover {
+    background-color: #fff;
+}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #fff;
+    box-shadow: none;
+}
+
+
+.left-menu{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0px 0px 10px;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+
+.fixedmenu li a span{ display: none; }
+
+.content-wrapper{
+    z-index: 1000 !important;
+    position: relative;
+}
+
+.sidebar-menu>li>a {
+    padding: 18px 5px 18px 12px;
+}
+
+.sidebar-menu .treeview-menu>li>a {
+    padding: 12px 5px 12px 15px;
+}
+
+.sidebar-menu li>a>.pull-right {
+    display: block;
+}
+
+.badge-warning, .preview-list .preview-item .preview-thumbnail .badge.badge-busy {
+    border: 1px solid #ffb463;
+    color: #ffffff;
+}
+
+.badge-warning, .preview-list .preview-item .preview-thumbnail .badge.badge-busy {
+    color: #fff;
+    background-color: #ffb463;
+}
+
+.badge-success, .preview-list .preview-item .preview-thumbnail .badge.badge-online {
+    color: #fff;
+    background-color: #00c292;
+}
+
+.badge-success, .preview-list .preview-item .preview-thumbnail .badge.badge-online {
+    border: 1px solid #00c292;
+    color: #ffffff;
+}
+
+.badge-primary {
+    border: 1px solid #03a9f3;
+    color: #ffffff;
+}
+.badge-primary {
+    color: #fff;
+    background-color: #03a9f3;
+}
+
+.badge {
+    border-radius: .25rem;
+    font-size:1.5rem;
+    font-weight: initial;
+    line-height: 1;
+    padding: 0.5rem 0.50rem;
+    
+}
+
+.badge-danger {
+    color: #212529;
+    background-color: #fb9678;
+}
+
+.badge-danger {
+    border: 1px solid #fb9678;
+    color: #fff;
+}
+
+.badge-info, .preview-list .preview-item .preview-thumbnail .badge.badge-offline {
+    border: 1px solid #ab8ce4;
+    color: #fff;
+}
+
+.badge-info, .preview-list .preview-item .preview-thumbnail .badge.badge-offline {
+    color: #fff;
+    background-color: #ab8ce4;
+}
+
+.main-sidebar{
+	top: 40px !important;
+	position:absolute !important;
+}
+
+
+
+	
